@@ -111,7 +111,7 @@ function ciEmailify (string) {
     let eMail = " ";
 
     for (let i = 0; i < string.length+1; i++) {
-            if (eMail[i] + 1 === " ") {
+            if (eMail[i] + 1 === " ") { //cant getrid of space yet.
                 eMail += ".";
             }
 
@@ -170,7 +170,7 @@ function crazyCase (string) {
     for (let i = 0; i < string.length; i++) {
         if (i % 2 === 0) {
              newStr += string[i]
-             newStr.toUpperCase
+             newStr.toUpperCase  //to uppercase not working
         }
         
        
